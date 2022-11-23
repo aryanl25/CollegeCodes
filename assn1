@@ -1,9 +1,9 @@
 list=[]
-n=int(input("Enter number of elements: ")
-for i in range(0,n)
-	element=int(input("Enter value")
+n=int(input("Enter number of elements: "))
+for i in range(0,n):
+	element=int(input("Enter element: "))
 	list.append(element)
-answer_set=[x if x%7==0 else print("Not Divisible by 7") in list]
+answer_set=[("Divisible by 7: ",x) if x%7==0 else ("Not Divisible: ",x) for x in list]
 print(answer_set)
 
 	
